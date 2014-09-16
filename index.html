@@ -16,20 +16,18 @@
   워크샵 관련 문의사항이나 질문/답변은 <a href="https://www.facebook.com/ixdworkshop" target="_blank">페이스북 페이지</a>를 통해 열려있습니다.
   <button type="button" onclick="alert('아직 준비중입니다')">워크샵 자료 내려받기</button>
 </p>
-<?php
-if ($_SERVER['SERVER_NAME'] == 'ixd-workshop.com') {
-?>
+
 <script>
+var host = window.location.hostname;
+if (host == 'ixd-workshop.com') {
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-31075740-2', 'auto');
   ga('send', 'pageview');
-</script>
-<?php
 }
-?>
+</script>
 
 </body>
 </html>
