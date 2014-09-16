@@ -13,7 +13,7 @@
   <img src="images/img_banner_m.png" alt="소개글" class="m">
 </div>
 <p class="info">
-  워크샵 관련 문의사항이나 질문/답변은 <a href="https://www.facebook.com/1494597347420852">페이스북 페이지</a>를 통해 열려있습니다.
+  워크샵 관련 문의사항이나 질문/답변은 <a href="https://www.facebook.com/ixdworkshop" target="_blank">페이스북 페이지</a>를 통해 열려있습니다.
   <button type="button" onclick="alert('아직 준비중입니다')">워크샵 자료 내려받기</button>
 </p>
 <?php
