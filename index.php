@@ -2,26 +2,20 @@
 <head>
 <meta charset="utf-8">
 <title>IXD Workshop</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/ui.css" media="all">
+<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" media="all">
 </head>
 <body>
 
-<style>
-* {
-  margin:0;
-  padding:0;
-}
-body {
-  background-color:#53a0d8;
-  text-align:center;
-}
-img {
-  width:100%;
-  min-width:990px;
-}
-</style>
-
-<img src="images/img_banner.jpg" alt="">
-
+<div class="banner">
+  <img src="images/img_banner_d.jpg" alt="소개글" class="d">
+  <img src="images/img_banner_m.png" alt="소개글" class="m">
+</div>
+<p class="info">
+  워크샵 관련 문의사항이나 질문/답변은 <a href="https://www.facebook.com/1494597347420852">페이스북 페이지</a>를 통해 열려있습니다.
+  <button type="button" onclick="alert('아직 준비중입니다')">워크샵 자료 내려받기</button>
+</p>
 <?php
 if ($_SERVER['SERVER_NAME'] == 'ixd-workshop.com') {
 ?>
