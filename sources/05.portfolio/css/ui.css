@@ -1,0 +1,104 @@
+body {
+  padding:0;
+  margin:0;
+  font-family:Dotum, "돋움", Helvetica, AppleSDGothicNeo, sans-serif;
+}
+
+header {
+  z-index:1000;
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+  min-width:990px;
+  height:70px;
+  border-bottom:1px solid #ddd;
+  background-color:#f9f9f9;
+  background-color:rgba(255,255,255,0.8);
+}
+header h1 {
+  position:absolute;
+  top:20px;
+  left:50%;
+  margin:0 0 0 -445px;
+  padding:0;
+}
+header h1 img {
+  height:30px;
+}
+header nav {
+  position:absolute;
+  top:20px;
+  right:50%;
+  margin:0 -445px 0 0;
+}
+header nav ul {
+  margin:0;
+  line-height:30px;
+}
+header nav ul li {
+  display:inline;
+  margin:0; 
+  list-style:none;
+}
+header nav ul li a {
+  display:inline-block;
+  height:30px;
+  line-height:30px;
+  padding:0 10px;
+  border:none;
+  border-bottom:2px solid transparent;
+  background:none;
+  color:#777;
+  font-size:14px;
+  text-decoration:none;
+  cursor:pointer;
+}
+header nav ul li.active a {
+  border-bottom:2px solid #87c2d4;
+  color:#333;
+}
+
+.section-stack section {
+  overflow:hidden;
+  width:100%;
+  min-width:990px;
+  height:auto;
+}
+
+.section-nav {
+  position:fixed;
+  top:50%;
+  right:20px;
+}
+.section-nav ul {
+  margin:0;
+}
+.section-nav li {
+  margin:5px 0;
+  list-style:none;
+}
+.section-nav li button {
+  padding:5px;
+  border:none;
+  background:none;
+  cursor:pointer;
+  color:#999;
+  color:rgba(0,0,0,0.3);
+  text-align:center;
+}
+.section-nav li.active button {
+  color:#000;
+}
+
+footer {
+  padding:50px 0;
+  text-align:center;
+}
+footer nav {
+
+}
+footer address {
+  color:#999;
+  font-size:12px;
+}

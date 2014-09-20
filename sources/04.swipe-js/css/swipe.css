@@ -1,0 +1,47 @@
+.swipe {
+  overflow:hidden;
+  visibility:hidden;
+  position:absolute;
+  top:50%;
+  left:50%;
+  width:640px;
+  height:480px;
+  margin:-240px 0 0 -320px;
+  border:1px solid #ccc;
+}
+.swipe-wrap {
+  overflow:hidden;
+  position:relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  height:480px;
+  position:relative;
+}
+.swipe .swipe-nav {
+  position:relative;
+}
+.swipe-prev,
+.swipe-next {
+  position:absolute;
+  width:50px;
+  height:50px;
+  margin-top:-25px;
+  border:none;
+  background:none;
+  font-family:Tahoma;
+  font-size:40px;
+  color:#666;
+  cursor:pointer;
+}
+.swipe-prev {
+  top:50%;
+  right:50%;
+  margin-right:360px;
+}
+.swipe-next {
+  top:50%;
+  left:50%;
+  margin-left:360px;
+}
